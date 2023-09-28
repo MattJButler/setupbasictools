@@ -28,3 +28,5 @@ sudo apt install setoolkit -y
 sudo apt install terminator -y
 sudo apt install guake -y
 sudo apt install binwalk -y
+sudo apt install sqlmap -y
+
