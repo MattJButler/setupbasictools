@@ -29,4 +29,6 @@ sudo apt install terminator -y
 sudo apt install guake -y
 sudo apt install binwalk -y
 sudo apt install sqlmap -y
+cd /opt
+wget linpeas.sh
 
