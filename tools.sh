@@ -29,6 +29,8 @@ sudo apt install terminator -y
 sudo apt install guake -y
 sudo apt install binwalk -y
 sudo apt install sqlmap -y
+sudo apt install steghide -y
+sudo apt install johnny -y
 cd /opt
 wget linpeas.sh
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
