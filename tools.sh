@@ -31,4 +31,6 @@ sudo apt install binwalk -y
 sudo apt install sqlmap -y
 cd /opt
 wget linpeas.sh
-
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
+  chmod 755 msfinstall && \
+ sudo  ./msfinstall
