@@ -38,3 +38,4 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
   chmod 755 msfinstall && \
  sudo  ./msfinstall
 pip3 install pwntools
+sudo apt-get install gdb
